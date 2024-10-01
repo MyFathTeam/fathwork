@@ -1,0 +1,363 @@
+{
+	"system": [
+		{
+			"name": "direction",
+			"value": "ltr",
+			"is_public": true
+		},
+		{
+			"name": "locale",
+			"value": "id",
+			"is_public": true
+		},
+		{
+			"name": "timezone",
+			"value": "Asia/Kolkata",
+			"is_public": true
+		},
+		{
+			"name": "date_format",
+			"value": "MMMM D, YYYY",
+			"is_public": true
+		},
+		{
+			"name": "time_format",
+			"value": "h:mm A",
+			"is_public": true
+		},
+		{
+			"name": "per_page",
+			"value": 10,
+			"is_public": true
+		},
+		{
+			"name": "currency",
+			"value": "USD",
+			"is_public": true
+		},
+		{
+			"name": "currencies",
+			"value": "USD",
+			"is_public": true
+		},
+		{
+			"name": "footer_credit",
+			"value": "Designed with ❤️ by Fathforce",
+			"is_public": true
+		},
+        {
+            "name": "show_version_number",
+            "value": true,
+            "is_public": true
+        },
+		{
+			"name": "enable_dark_theme",
+			"value": false,
+			"is_public": true
+		},
+		{
+			"name": "enable_mini_sidebar",
+			"value": true
+		},
+		{
+			"name": "enable_maintenance_mode",
+			"value": false
+		},
+		{
+			"name": "enable_setup_wizard",
+			"value": false
+		},
+		{
+			"name": "enable_print_preview",
+			"value": true,
+			"is_public": true
+		}
+	],
+    "feature": [
+		{
+			"name": "enable_todo",
+			"value": true
+		},
+		{
+			"name": "enable_backup",
+			"value": true
+		},
+		{
+			"name": "enable_activity_log",
+			"value": true
+		}
+    ],
+    "notification": [
+		{
+			"name": "enable_guest_notification_bar",
+			"value": false,
+            "is_public": true
+		},
+		{
+			"name": "enable_app_notification_bar",
+			"value": false
+		},
+		{
+			"name": "guest_notification_message",
+			"value": "",
+            "is_public": true
+		},
+		{
+			"name": "app_notification_message",
+			"value": ""
+		},
+		{
+			"name": "enable_pusher_notification",
+			"value": false,
+            "is_public": true
+		},
+		{
+			"name": "pusher_app_id",
+			"value": "",
+            "is_secret": true
+		},
+		{
+			"name": "pusher_app_key",
+			"value": "",
+            "is_public": true
+		},
+		{
+			"name": "pusher_app_secret",
+			"value": "",
+            "is_secret": true
+		},
+		{
+			"name": "pusher_app_cluster",
+			"value": "",
+            "is_public": true
+		}
+    ],
+	"general": [
+		{
+			"name": "app_name",
+			"value": "Fathforce",
+			"is_public": true
+		}
+	],
+	"auth": [
+		{
+			"name": "session_lifetime",
+			"value": 1440
+		},
+		{
+			"name": "login_throttle_max_attempts",
+			"value": 5
+		},
+		{
+			"name": "login_throttle_lock_timeout",
+			"value": 2
+		},
+		{
+			"name": "enable_reset_password",
+			"value": true,
+			"is_public": true
+		},
+		{
+			"name": "reset_password_token_lifetime",
+			"value": 30
+		},
+		{
+			"name": "enable_registration",
+			"value": true,
+			"is_public": true
+		},
+		{
+			"name": "enable_registration_terms",
+			"value": false,
+			"is_public": true
+		},
+		{
+			"name": "enable_email_verification",
+			"value": true,
+			"is_public": true
+		},
+		{
+			"name": "enable_account_approval",
+			"value": true
+		},
+		{
+			"name": "enable_two_factor_security",
+			"value": false
+		},
+		{
+			"name": "enable_oauth_login",
+			"value": false,
+			"is_public": true
+		},
+        {
+            "name": "google_client_id",
+            "is_secret": true
+        },
+        {
+            "name": "google_client_secret",
+            "is_secret": true
+        },
+        {
+            "name": "facebook_client_id",
+            "is_secret": true
+        },
+        {
+            "name": "facebook_client_secret",
+            "is_secret": true
+        },
+        {
+            "name": "twitter_client_id",
+            "is_secret": true
+        },
+        {
+            "name": "twitter_client_secret",
+            "is_secret": true
+        },
+        {
+            "name": "github_client_id",
+            "is_secret": true
+        },
+        {
+            "name": "github_client_secret",
+            "is_secret": true
+        },
+		{
+			"name": "enable_otp_login",
+			"value": true,
+			"is_public": true
+		},
+		{
+			"name": "otp_login_lifetime",
+			"value": 10
+		},
+		{
+			"name": "enable_email_otp_login",
+			"value": true,
+			"is_public": true
+		},
+		{
+			"name": "enable_sms_otp_login",
+			"value": true,
+			"is_public": true
+		},
+		{
+			"name": "enable_screen_lock",
+			"value": false
+		},
+		{
+			"name": "screen_lock_timeout",
+			"value": 10
+		}
+	],
+	"assets": [
+		{
+			"name": "favicon",
+			"value": "/images/favicon.png",
+			"is_public": true
+		},
+		{
+			"name": "logo",
+			"value": "/images/logo.png",
+			"is_public": true
+		},
+		{
+			"name": "logo_light",
+			"value": "/images/logo-light.png",
+			"is_public": true
+		},
+		{
+			"name": "icon",
+			"value": "/images/icon.png",
+			"is_public": true
+		},
+		{
+			"name": "icon_light",
+			"value": "/images/icon-light.png",
+			"is_public": true
+		}
+	],
+	"mail": [
+		{
+			"name": "driver",
+			"value": "log"
+		},
+		{
+			"name": "from_name",
+			"value": "Fathforce"
+		},
+		{
+			"name": "from_address",
+			"value": "hi@fathforce.com"
+		},
+		{
+			"name": "smtp_username",
+			"value": "",
+			"is_secret": true
+		},
+		{
+			"name": "smtp_password",
+			"value": "",
+			"is_secret": true
+		},
+		{
+			"name": "mailgun_domain",
+			"value": "",
+			"is_secret": true
+		},
+		{
+			"name": "mailgun_secret",
+			"value": "",
+			"is_secret": true
+		},
+		{
+			"name": "mailgun_endpoint",
+			"value": "",
+			"is_secret": false
+		}
+	],
+	"sms": [
+		{
+			"name": "nexmo_api_key",
+			"value": null,
+			"is_secret": true
+		},
+		{
+			"name": "nexmo_api_secret",
+			"value": null,
+			"is_secret": true
+		},
+		{
+			"name": "twilio_sid",
+			"value": null,
+			"is_secret": true
+		},
+		{
+			"name": "twilio_token",
+			"value": null,
+			"is_secret": true
+		},
+		{
+			"name": "custom_sms_api_get_url",
+			"value": null,
+			"is_secret": true
+		}
+	],
+    "social_network": [],
+    "utility": [
+        {
+            "name": "todo_view",
+            "value": "board"
+        }
+    ],
+    "site": [
+        {
+            "name": "enable_site",
+            "value": false
+        },
+        {
+            "name": "theme",
+            "value": "default",
+            "is_public": true
+        }
+    ]
+}

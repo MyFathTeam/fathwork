@@ -1,0 +1,11 @@
+{
+    "per_page_lengths"      : [1,5,10,12,25,50,100],
+    "mail_drivers"          : ["sendmail","mailgun","smtp","log"],
+    "sms_drivers"           : ["nextmo","twilio","custom"],
+    "mail_encryptions"      : ["ssl","tls"],
+    "directions"            : ["rtl","ltr"],
+    "date_formats"          : ["D-MM-YY","D-MM-YYYY","DD-MM-YYYY","MM-DD-YYYY","YYYY-MM-DD","MMM D, YYYY","MMMM D, YYYY","dddd, MMM D, YYYY","dddd, MMMM D, YYYY","D MMM YYYY","D MMMM YYYY","dddd, D MMM YYYY","dddd, D MMMM YYYY"],
+    "time_formats"          : ["H:m","H:m a","H:m A","H:mm","H:mm a","H:mm A","HH:mm","HH:mm a","HH:mm A","h:m","h:m a","h:m A","h:mm","h:mm a","h:mm A","hh:mm","hh:mm a","hh:mm A"],
+    "date_placeholders"     : ["%YEAR%", "%YEAR_SHORT%", "%MONTH%", "%MONTH_SHORT%", "%MONTH_NUMBER%", "%MONTH_NUMBER_SHORT%", "%DAY%", "%DAY_SHORT%"],
+    "colors"                : ["#000000", "#FF1900", "#F47365", "#FFB243", "#FFE623", "#6EFF2A", "#1BC7B1", "#00BEFF", "#2E81FF", "#5D61FF", "#FF89CF", "#FC3CAD", "#BF3DCE", "#8E00A7"]
+}

@@ -1,0 +1,70 @@
+{
+	"roles": [
+        "admin",
+        "user"
+    ],
+	"permissions": {
+		"general": {
+            "login:action": ["user"]
+        },
+        "config": {
+            "config:store": [],
+            "locale:read": [],
+            "locale:create": [],
+            "locale:edit": [],
+            "locale:delete": [],
+            "backup:manage": [],
+            "activity-log:manage": [],
+            "activity-log:export": []
+        },
+		"utility": {
+            "utility:config": [],
+			"todo:manage": ["user"],
+            "todo:export": []
+		},
+		"user": {
+            "user:read": [],
+            "user:create": [],
+            "user:edit": [],
+            "user:delete": [],
+            "user:export": []
+		},
+		"project": {
+            "project:read": [],
+            "project:create": [],
+            "project:edit": [],
+            "project:delete": [],
+            "project:export": []
+		},
+        "product": {
+            "product:read": [],
+            "product:create": [],
+            "product:edit": [],
+            "product:delete": [],
+            "product:export": []
+		},
+		"productcategory": {
+            "productcategory:read": [],
+            "productcategory:create": [],
+            "productcategory:edit": [],
+            "productcategory:delete": [],
+            "productcategory:export": []
+		},
+        "post": {
+            "post:read": [],
+            "post:create": [],
+            "post:edit": [],
+            "post:delete": [],
+            "post:export": []
+		},
+		"postcategory": {
+            "postcategory:read": [],
+            "postcategory:create": [],
+            "postcategory:edit": [],
+            "postcategory:delete": [],
+            "postcategory:export": []
+		},
+        "modules": {
+        }
+	}
+}

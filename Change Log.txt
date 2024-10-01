@@ -1,0 +1,15 @@
+Change Log FathCMS Version 0.1 Tahun 2022 :
+- Laravel 7
+- Vue JS 2
+
+Change Log FathCMS Version 1.0 Tahun 2023 :
+- Penigkatan Laravel 9
+- Vue JS 3
+- Perubahan Framework Admin dari Bootstraop menjadi Tailwind
+
+Change Log FathCMS Version 2.0 Tahun 2024 :
+- Penigkatan Laravel 10
+- Penambahan Bahasa Indoensia
+- Penambahan Landing Page
+
+

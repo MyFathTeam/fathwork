@@ -1,0 +1,37 @@
+.rounded-table thead tr th:first-of-type {
+    @apply sm:rounded-tl-lg;
+}
+
+.rounded-table thead tr th:last-of-type {
+    @apply sm:rounded-tr-lg;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s ease-out;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.scroller-x {
+    @apply scrollbar scrollbar-thumb-rounded-full scrollbar-track-rounded-full overflow-x-scroll;
+}
+
+.scroller-y {
+    @apply scrollbar scrollbar-thumb-rounded-full scrollbar-track-rounded-full overflow-y-scroll;
+}
+
+.scroller-thin-x {
+    @apply scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full overflow-x-auto;
+}
+
+.scroller-thin-y {
+    @apply scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full overflow-y-auto;
+}
+
+.scroller-hidden {
+    @apply scrollbar-hidden scrollbar-track-transparent scrollbar-thumb-transparent;
+}

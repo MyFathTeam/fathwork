@@ -1,0 +1,60 @@
+{
+    "mail": [
+        {
+            "name": "Reset Password Confirmation",
+            "subject": "Reset Password Confirmation",
+            "code": "reset-password-confirmation",
+            "variables": ["NAME", "CODE", "TOKEN_LIFETIME"],
+            "content": "<p>Hi ##NAME##,</p><p>You are receiving this email because we received a password reset request for your account.</p><p>Your password reset code is ##CODE##. This code is valid for next ##TOKEN_LIFETIME## minutes.</p><p>If you did not request a password reset, no further action is required.</p><p>Thank you!</p>"
+        },
+        {
+            "name": "Email Change Confirmation",
+            "subject": "Email Change Confirmation",
+            "code": "email-change-confirmation",
+            "variables": ["NAME", "CODE", "TOKEN_LIFETIME"],
+            "content": "<p>Hi ##NAME##,</p><p>We have recevied email change request from you!</p><p>Your one time verification code is ##CODE##.</p><p>This code is valid for ##TOKEN_LIFETIME## minutes.</p><p>If you haven't requested for email change, please ignore this email.</p><p>Thank you!</p>"
+        },
+        {
+            "name": "Reset Password Alert",
+            "subject": "Reset Password Alert",
+            "code": "reset-password-alert",
+            "variables": ["NAME", "URL"],
+            "content": "<p>Hi ##NAME##,</p><p>Your password has been reset successfully!</p><p>Click on the below link to continue login.</p>[Login Now](##URL##)<p>If you haven't changed your password, please contact administrator.</p><p>Thank you!</p>"
+        },
+        {
+            "name": "Email OTP",
+            "subject": "Email OTP",
+            "code": "send-email-otp",
+            "variables": ["NAME", "CODE", "TOKEN_LIFETIME"],
+            "content": "<p>Hi ##NAME##,</p><p>Your one time password is: ##CODE##</p><p>This code is valid for the next ##TOKEN_LIFETIME## minutes!</p><p>Do not share this code with anyone else.</p><p>Thank you!</p>"
+        },
+        {
+            "name": "Two Factor Security",
+            "subject": "Two Factor Security",
+            "code": "two-factor-security",
+            "variables": ["NAME", "CODE", "TOKEN_LIFETIME"],
+            "content": "<p>Hi ##NAME##,</p><p>Your one time two factor security code is: ##CODE##</p><p>This code is valid for the next ##TOKEN_LIFETIME## minutes!</p><p>Do not share this code with anyone else.</p><p>Thank you!</p>"
+        },
+        {
+            "name": "Email Verification",
+            "subject": "Email Verification",
+            "code": "user-email-verification",
+            "variables": ["NAME", "URL"],
+            "content": "<p>Hi ##NAME##,</p><p>Thank you for registering an account with us.</p><p>Click on the below link to verify your account.</p>[Verify my Email](##URL##)<p>If you haven't registered with us, please ignore this email.</p><p>Thank you!</p>"
+        },
+        {
+            "name": "Username Change Confirmation",
+            "subject": "Username Change Confirmation",
+            "code": "username-change-confirmation",
+            "variables": ["NAME", "CODE", "TOKEN_LIFETIME"],
+            "content": "<p>Hi ##NAME##,</p><p>We have recevied username change request from you!</p><p>Your one time verification code is ##CODE##</p><p>This code is valid for the next ##TOKEN_LIFETIME## minutes!</p><p>If you haven't requested for username change, please ignore this email.</p><p>Thank you!</p>"
+        },
+        {
+            "name": "Account Registered",
+            "subject": "Account Registered",
+            "code": "account-registered",
+            "variables": ["NAME", "URL"],
+            "content": "<p>Hi ##NAME##,</p><p>Thank you for registering an account with us.</p><p>Click on the below link to login.</p>[Login Now](##URL##)<p>If you haven't registered with us, please ignore this email.</p><p>Thank you!</p>"
+        }
+    ]
+}

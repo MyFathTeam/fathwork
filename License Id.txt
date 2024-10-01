@@ -1,0 +1,43 @@
+Ketentuan Lisensi FathCMS:
+
+-------------------
+Lisensi Lite
+-------------------
+Fathforce memberikan Anda lisensi seumur hidup non-eksklusif untuk satu individu untuk menggunakan skrip untuk satu proyek saja.
+
+Anda dapat:
+
+* Menggunakannya untuk membuat produk akhir tunggal untuk diri Anda sendiri.
+* Menggunakannya untuk membuat proyek komersial tunggal untuk salah satu klien Anda.
+
+----------------------
+Lisensi Standar                         
+----------------------
+Fathforce memberikan Anda lisensi seumur hidup non-eksklusif untuk satu individu untuk menggunakan skrip untuk beberapa proyek.
+
+Anda dapat:
+
+* Menggunakannya untuk membuat beberapa produk akhir untuk diri Anda sendiri.
+* Menggunakannya untuk membuat beberapa proyek komersial untuk klien Anda.
+
+----------------------
+Lisensi Profesional
+----------------------
+Fathforce memberikan Anda lisensi seumur hidup non-eksklusif untuk individu atau tim untuk menggunakan skrip untuk beberapa proyek.
+
+Anda dapat:
+
+* Menggunakannya untuk membuat beberapa produk akhir untuk diri Anda/tim.
+* Menggunakannya untuk membuat beberapa proyek komersial untuk klien Anda.
+
+============================================================================================================
+
+Dengan setiap lisensi, Anda dibatasi untuk:
+
+* Membangun skrip/proyek/produk yang mirip dengan FathCMS (tema/panel admin atau produk pesaing apa pun), baik Anda menjualnya maupun mempublikasikannya atau mendistribusikannya secara GRATIS.
+* Berbagi/Mendistribusikannya dengan individu/tim/perusahaan lain, baik secara publik atau melalui tautan pribadi.
+* Memublikasikannya ke repositori publik manapun.
+* Mentransfer lisensi kepada individu atau perusahaan.
+
+Ada pertanyaan?
+Jika Anda tidak yakin jenis lisensi yang Anda butuhkan, Anda dapat menulis kepada kami di hi@fathforce.com.
